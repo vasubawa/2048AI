@@ -1,0 +1,7 @@
+__pycache__
+.venv
+.vscode
+highscore.txt
+README.md
+temp.py
+algorithms
