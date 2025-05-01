@@ -10,6 +10,11 @@ This project implements an AI for the popular game 2048 using various algorithms
 ├── game.py             # 2048 game logic
 ├── gui.py              # GUI implementation
 ├── algorithms/         # Different AI algorithms
+│   ├── __init__.py     # Package initialization
+│   ├── minimax.py      # Minimax algorithm
+│   ├── mcts.py         # Monte Carlo Tree Search
+│   ├── expectimax.py   # Expectimax algorithm
+│   └── dqn.py          # Deep Q-Network (reinforcement learning)
 └── utils.py            # Helper functions
 ```
 
@@ -49,7 +54,10 @@ In the GUI, you can choose from different AI algorithms implemented in the `algo
 
 ## Algorithms Overview
 
-- To be implimented
+- **Minimax**: A decision-making algorithm that evaluates possible moves and selects the best one based on a heuristic.
+- **Monte Carlo Tree Search (MCTS)**: Uses random sampling to evaluate potential outcomes of moves.
+- **Expectimax**: A variant of Minimax that accounts for chance events in the game.
+- **Deep Q-Network (DQN)**: A reinforcement learning approach that allows the AI to learn optimal moves through experience.
 
 ## Contributing
 
